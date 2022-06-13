@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+
+const name = <span>Hello react</span> 
+
+const test = () => {
+  alert("Hello heyyy!!!")
+}
+
+const age = (a) => {
+
+  if(a > 18) {
+    return <span>You are elegible </span>
+  }
+  else {
+    return <span>You are not elegible </span>
+  }
+}
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='h1Tag'>Rishon {name}</h1>
+      <button onClick={test}>Click me</button>
+      {age(19)}
     </div>
   );
 }
