@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
 
 // const name = <span>Hello react</span> 
 
@@ -32,7 +33,11 @@ import './App.css';
 
 class App extends React.Component{
   render() {
-    return <h1>Hello class component</h1>
+    return (
+      <div className='App'>
+        <Header/>
+      </div>
+    )
   }
 }
 
