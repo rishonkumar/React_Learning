@@ -3,6 +3,8 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Channel from './components/Channel';
+import FunctionClick from './components/FunctionClick';
+
 // import CHeader from './components/CHeder';
 
 // const name = <span>Hello react</span> 
@@ -45,6 +47,7 @@ class App extends React.Component{
           <p>Helllo how are you</p>
         </Header>
         <Channel/>
+        <FunctionClick/>
 
       </div>
     )
