@@ -2,6 +2,8 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
+import Channel from './components/Channel';
+// import CHeader from './components/CHeder';
 
 // const name = <span>Hello react</span> 
 
@@ -35,7 +37,15 @@ class App extends React.Component{
   render() {
     return (
       <div className='App'>
-        <Header/>
+        {/* <Header name = "Rishon"/>
+        <Header name = "Rishon" last = "kumar"/>
+        <Header age = "14"/> */}
+
+        <Header name = "yzz">
+          <p>Helllo how are you</p>
+        </Header>
+        <Channel/>
+
       </div>
     )
   }
