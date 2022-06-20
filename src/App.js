@@ -4,6 +4,10 @@ import './App.css';
 import Header from './components/Header';
 import Channel from './components/Channel';
 import FunctionClick from './components/FunctionClick';
+import CFunctionClick from './components/CFunctionClick';
+import CHeader from './components/CHeader';
+import Form from './components/Form';
+import Routing from './components/Routing';
 
 // import CHeader from './components/CHeder';
 
@@ -37,6 +41,8 @@ import FunctionClick from './components/FunctionClick';
 
 class App extends React.Component{
   render() {
+    const number = [3,4,5,6];
+
     return (
       <div className='App'>
         {/* <Header name = "Rishon"/>
@@ -46,8 +52,19 @@ class App extends React.Component{
         <Header name = "yzz">
           <p>Helllo how are you</p>
         </Header>
+
+        <CHeader name = "PASA"/>
+
         <Channel/>
         <FunctionClick/>
+        <CFunctionClick roll = "22" numbers = {number} />
+
+        <h5>Froms</h5>
+
+        <Form></Form>
+
+        <h4>Routing</h4>
+        <Routing></Routing>
 
       </div>
     )

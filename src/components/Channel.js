@@ -4,8 +4,9 @@ class Channel extends React.Component{
 
     constructor() {
         super(); // it will call its parent
-        this.state = {
-            msg : 'Helllo channel compoent'
+        this.state = {              
+            msg : 'Helllo channel compoent',
+            age: '23'
         }
     }
 
