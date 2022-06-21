@@ -28,7 +28,7 @@ export class LifeCycleA extends Component {
 
     return (
       <div>
-        LifeCycleA
+        {/* LifeCycleA */}
         <LifeCycleB></LifeCycleB>
       </div>
     )
