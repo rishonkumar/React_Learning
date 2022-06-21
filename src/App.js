@@ -8,7 +8,11 @@ import CFunctionClick from './components/CFunctionClick';
 import CHeader from './components/CHeader';
 import Form from './components/Form';
 import Routing from './components/Routing';
-
+import LifeCycleA from './components/LifeCycleA';
+import Product from './components/Product';
+import HookCounter from './components/HookCounter';
+import HookCounter2 from './components/HookCounter2';
+import HookCounter3 from './components/HookCounter3';
 // import CHeader from './components/CHeder';
 
 // const name = <span>Hello react</span> 
@@ -49,7 +53,7 @@ class App extends React.Component{
         <Header name = "Rishon" last = "kumar"/>
         <Header age = "14"/> */}
 
-        <Header name = "yzz">
+        {/* <Header name = "yzz">
           <p>Helllo how are you</p>
         </Header>
 
@@ -64,7 +68,15 @@ class App extends React.Component{
         <Form></Form>
 
         <h4>Routing</h4>
-        <Routing></Routing>
+        <Routing></Routing> */}
+
+        {/* <h5>Life cycle</h5>
+        <LifeCycleA></LifeCycleA> */}
+        {/* <Product></Product>  */}
+        {/* <HookCounter></HookCounter> */}
+        {/* <HookCounter2></HookCounter2> */}
+
+        <HookCounter3></HookCounter3>
 
       </div>
     )
